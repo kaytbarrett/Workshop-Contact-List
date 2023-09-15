@@ -3,7 +3,7 @@ import React from 'react';
 function ContactRow ({ setSelectedContactId, contact }) {
 return (
 <tr
-onClock={() => {
+onClick={() => {
     setSelectedContactId(contact.id);
 }}>
 <td>{contact.name}</td>
